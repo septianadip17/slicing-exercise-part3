@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Upper Navbar */}
-      <div className=" dark:bg-gray-900 dark:text-white">
+      <div className=" dark:bg-gray-900 dark:text-white duration-200 relative z-40">
         <div className="bg-primary/40 py-2">
           <div className="container mx-auto flex justify-between items-center">
             <div>
