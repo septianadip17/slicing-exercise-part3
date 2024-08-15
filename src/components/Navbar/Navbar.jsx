@@ -7,7 +7,7 @@ import DarkMode from "./DarkMode";
 const Navbar = () => {
   return (
     <div className=" dark:bg-gray-900 dark:text-white duration-200 relative z-40">
-      {/* Upper Navbar */}
+      {/* upper navbar */}
       <div className="bg-primary/40 py-2">
         <div className="container mx-auto flex justify-between items-center">
           <div>
