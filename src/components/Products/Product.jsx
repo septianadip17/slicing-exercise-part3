@@ -5,7 +5,7 @@ import Img3 from "../../assets/women/women3.jpg";
 import Img4 from "../../assets/women/women4.jpg";
 import { FaStar } from "react-icons/fa6";
 import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 const ProductsData = [
   {
@@ -95,7 +95,10 @@ const Products = () => {
             ))}
           </div>
           {/* view all button */}
-          <div className="flex justify-center">
+          <div
+            className="flex justify-center"
+            data-aos="fade-up"
+          >
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
               View All Button
             </button>
