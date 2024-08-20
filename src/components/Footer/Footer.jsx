@@ -92,7 +92,6 @@ const Footer = () => {
             </div>
 
             {/* social links */}
-
             <div>
               <div className="flex items-center gap-3 mt-6">
                 <a href="#">
