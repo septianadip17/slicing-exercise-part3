@@ -16,7 +16,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                     <h1>Order Now</h1>
                   </div>
                   <div>
-                    <IoCloseOutline className="text-2xl cursor-pointer" onClick={() => orderPopup(false)}/>
+                    <IoCloseOutline className="text-2xl cursor-pointer" onClick={() => setOrderPopup(false)}/>
                   </div>
                 </div>
                 {/* form section */}
