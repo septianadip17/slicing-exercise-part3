@@ -4,6 +4,8 @@ import Img2 from "../../assets/women/women2.jpg";
 import Img3 from "../../assets/women/women3.jpg";
 import Img4 from "../../assets/women/women4.jpg";
 import { FaStar } from "react-icons/fa6";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 const ProductsData = [
   {
