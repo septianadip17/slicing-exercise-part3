@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Product from "./components/Products/Product";
 import AOS from "aos";
 import TopProducts from "./components/TopProducts/TopProducts";
+import Banner from "./components/Banner/Banner";
 
 const App = () => {
   React.useEffect(() => {
@@ -21,7 +22,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Product />
-      <TopProducts/>
+      <TopProducts />
+      <Banner />
     </div>
   );
 };
