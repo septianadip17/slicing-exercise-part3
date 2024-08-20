@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Product from "./components/Products/Product";
 import AOS from "aos";
+import TopProducts from "./components/TopProducts/TopProducts";
 
 const App = () => {
   React.useEffect(() => {
@@ -19,8 +20,8 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-
       <Product />
+      <TopProducts/>
     </div>
   );
 };
