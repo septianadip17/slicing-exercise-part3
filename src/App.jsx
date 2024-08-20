@@ -26,6 +26,7 @@ const App = () => {
       <TopProducts />
       <Banner />
       <Subscribe />
+      <Product />
     </div>
   );
 };
