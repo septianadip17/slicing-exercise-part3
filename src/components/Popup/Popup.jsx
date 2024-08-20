@@ -20,6 +20,14 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                   </div>
                 </div>
                 {/* form section */}
+                <div className="mt-4">
+                  <input type="text" placeholder="Name"
+                  className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4" />
+                  <input type="email" placeholder="Email"
+                  className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4" />
+                  <input type="text" placeholder="Address"
+                  className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4" />
+                </div>
               </div>
             </div>
           </div>
