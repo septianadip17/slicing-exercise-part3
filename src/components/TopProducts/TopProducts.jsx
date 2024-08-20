@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import Img1 from "../../assets/shirt/shirt.png";
 import Img2 from "../../assets/shirt/shirt2.png";
@@ -27,7 +28,6 @@ const ProductsData = [
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
-// eslint-disable-next-line react/prop-types
 const TopProducts = ({ handleOrderPopup }) => {
   return (
     <div>
